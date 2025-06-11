@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="WebSite.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Letterly</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <div id="map" style="width: 100%; height: 500px;"></div>
+    </asp:ContentPlaceHolder>
+    <style>
+        html, body {
+            background-image: url('images/map.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            font-family: 'Special Elite';
+            background-size: 100% 100%;
+            color: white;
+            margin: 0;
+            overflow: hidden;
+        }
+        .top-bar {
+            width: 100%;
+            height: 60px;
+            background-color: rgba(0, 0, 0, 0.7);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+        .top-bar-text {
+            color: white;
+            text-align: center;
+            left:45%;
+            font-size: 35px;
+            line-height: 50px; 
+            cursor: pointer;
+            z-index:3;
+            position:absolute;
+            margin-top:10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="top-bar">
+    </div>
+            <div class="top-bar-text" onclick="window.location.href='main.aspx'">Letterly</div>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

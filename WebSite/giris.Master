@@ -1,0 +1,111 @@
+﻿ <%@ Master Language="C#" AutoEventWireup="true" CodeBehind="giris.master.cs" Inherits="WebSite.giris" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="mektup, letter, penpal, sosyal, medya, sosyal medya, social, network, social network, location, random, anon, anonymous, country" />
+<meta name="author" content="Erol Sezen" />
+<meta name="description" content="An entertaining social media platform built around letter writing and penpal." />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letterly</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            font-family: 'Special Elite';
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            min-width: 100vw;
+            overflow: hidden;
+            color:white;
+        }
+        .baslik {
+            font-family: 'Special Elite';
+            font-size: 60px;
+            position: absolute;
+            top: 100px;
+            right: 95px;
+            z-index: 4;
+            display: flex;
+            color: white;
+            letter-spacing: 2px;
+        }
+        
+        .altyazi {
+            position: absolute;
+            top: 510px;
+            left: 450px;
+            transition: transform 0.3s ease;
+        }
+        
+        .başlık {
+            background-image: url('Images/giris.png');
+            background-size: 700px 700px;
+            background-repeat: no-repeat;
+            background-position: center;
+            position:absolute;
+            top:300px;
+            left:200px;
+            height: 200px;
+            width: 500px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .başlık-container:hover .başlık, .başlık-container:hover .altyazi {
+            transform: scale(1.2);
+        }
+        .sidebar {
+            background-color: #111112;
+            width: 500px;
+            height: 100%;
+            position: absolute;
+            right: 0;
+            top: 0;
+            z-index: 1;
+        }
+        
+        footer {
+            border: thin solid #fffffA;
+            background-color: black;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            width: 100%;
+            text-align: left;
+            margin-top: auto;
+            display:flex;
+            position:relative;
+            z-index: 2;
+
+        }
+    </style>
+    <script type="text/javascript">
+        function redirectToGiris() {
+            window.location.href = "giris.aspx";
+        }
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+                        <div class="baslik">    
+        <p>LETTERLY</p>
+    </div>
+        <div class="başlık-container" style="display: flex; align-items: center; justify-content: flex-start; flex: 1;">
+            <h1 class="başlık" onclick="redirectToGiris()"></h1>
+            <p class="altyazi">social media platform built around letter writing and penpal.</p>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+        <div class="sidebar"></div>
+    </form>
+    <footer> Copyright 2024-2025. All Rights Reserved.</footer>
+</body>
+</html>
+
+
+

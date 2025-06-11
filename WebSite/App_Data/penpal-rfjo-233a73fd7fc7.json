@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "penpal-rfjo",
+  "private_key_id": "233a73fd7fc71aa3ed14b0f4d852486256f442f1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCztFVqIBeydPj+\nvZdfVV/LQicCj+lqQv2TtNIaQI/nC4kSboOWKvI21IKjXvRvNAgwb997F0FTfykj\n8fXri7WU8upfHlaXmIjKEZGEUoYFsWv5v24zWoes9mF25YZixz/TkMWdVi8FPX98\nKecrEXLaGvy1fowsnWifruNBHDiSXAA1mbbLm8gsMqPcncbIvaYK/ipCIWgQqUZ6\nQYGXtECkLdt6reLUQ2BHLNPLK2wg4eQ4IUzlILiM+RoeFoQiY/Dmj4FLUvdP87k/\n0q6jyQHoT0FWvbsNOnreK625jIjKpiZ2OcbRTDFe3EACVF0uPvK6Dno2qBYt7jjK\nd7Yha2k5AgMBAAECggEACGt0fY+RoKtFn9Tk/uLehUTdFEwHHxMSs70bA38fJu+F\nzXrnWC28scg48zvflsbAs/lH5qnnJgj9FdmwQKgn+rm7dLe0ja+ISDR0xZcCv8lJ\ncncPTCFrnjVgiWw1ZNMqWMitk6K+Ov//xULm2YAcqh6t1LigS3ZYGLQ+YlZ2yZeo\n13N4oGIHPwAOSKIYIMjH5hyo4jxosaoKUnYUCQCRsE1yyTeS08qn7HVQijIfyv9e\nlX9QnItnhFjVH6uFVO3vJftvep3kt9+60DfSLZ+/36lDdeoLQVZvERh9bFgWxwXX\n0J2Ct9/YPN1CPyvwwORxML5xnRJY1Ja2xhdpR/CSMQKBgQD5sMvKywofxm/MP/ZU\n2XtFebQid1s5jqBRXdnK/inM34ugjzxwrne31XbHp+kKw1BQrOMqfT0HHIP+6oHJ\nCm+m4JtnvRY7J2VNamCcLSu6OwPbQR3pPJ0hwPXzvLWCJKsbatTXULqfdtcGCLLm\nIUk2VLWT2WuCLwcyXH+wXCFU8QKBgQC4Ps86f1eMUe92qtkCClzCWXJh11Ff83j0\n5wO4jWGAViVQDQBJkVsBnCh+oCfb5lhzQmKcQ4SFOLHtdklKaW/z3d230eyL0qWv\n1ln56k6+uiydStMmv4oGRcEpj9TxJncyEMFFojlqvxNGjI5Oc+AFecBf7YCd4WgI\nJPu2P1s4yQKBgA+si351dHM+L7JwqXP2GwjndOlc+LsKOwIglBVsEw+rUMaJd0/T\ng+xkWAp8feKRFC+cSr5WEkip/5c2/WKzZwLgwqCmfAjGllNfxCTJqR8NqVZQJiKI\nDY0a4dWlGPfMeXlFIYtKpAxyl1jnnuNXX5MriiJ32YnYjekZaWKWxfjhAoGBALKg\n2qMZYRT/P05q19hdmY8nz3jCm/eOAyBVdUsRb41Qd/6DjFrHHVeTQcN6nQpa6jhd\nDWP5JdtPm1nhi68kSFFEMrkMQu1Q/ihbhoKBQ3Uw5R5etBbmLvhj2qHj/A0NQRT+\nH5PWcxpmRFbq4PF48KH+Z5/ZkRAAwK7cxFnuVQ/ZAoGBANBK6RI3gFh4wf9rdUJg\nHBmTMk2EDMgCEeLJdXUv0pLJDYZFXrRfNda64YFlYTxhpELH53xNFB/kbu8o5c72\nghkwwXUK+W8BRR4Bi1FtdOl8SgEt+NGeX6OHy5NhfiPIqu5ti3JEgUgUhNkPDDyK\nsjfZ9C8KmQS8PYnXb03fy9bw\n-----END PRIVATE KEY-----\n",
+  "client_email": "penpal@penpal-rfjo.iam.gserviceaccount.com",
+  "client_id": "111050093354103065463",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/penpal%40penpal-rfjo.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
